@@ -1,0 +1,56 @@
+---
+title: "Project for Data Course: Plants and Ants at two different Ecosites"
+author: "Celia Mata González, Success Iziduh, Eleni Minousi, Mabelle El-Mekdad"
+format: typst
+editor: visual
+---
+
+## Github Usernames
+
+Celia Mata González: celiazastei\@protonmail.com
+
+Success Iziduh: iziduhsuccess\@gmail.com
+
+Mabelle El-Mekdad: mabellemekdad\@gmail.com
+
+Eleni Minousi: el_minousi\@gmail.com
+
+## Selected Data
+
+We are going to use data from this article: *Small-scale drivers on plant and ant diversity in a grassland habitat through a multifaceted approach*
+
+All the data from the article is available on this link: [OUR DATA](https://doi.org/10.7717/peerj.12517/supp-2)
+
+By downloading it, we can obtain a xlsx file with five spreadsheets:
+
+1.  **plant_species**: Numerical variables that indicates the density of each plant species in each different place. We have 132 plant species. The places analysed, refered as "ecosites" are of two different types: "Deep" and "Rocky".
+2.  **plant_traits**: Characteristics defining each of the plan t species. They are *Leaf Area* (LA), *Specific Leaf Area*(SLA), *Leaf Dry Matter Content* (LDMC), *Height* and *Seed Mass* (SM). They are all numerical variables.
+3.  **ant_species**: The same as for plant species, but for ants. We have 23 ant species.
+4.  **ants_traits**: Characteristics defining each of the ant species. We have three numerical variables (*Weber's Length* / WL; *Head Length* / HL and *Relative Leg Length* / RLL) and two categorical variables (*Diet* and *Behaviour*). Since we have three types on *Diet* and two types on *Behaviour*, we will use a different color for each type of diet (*Sugar*, *Seed* or *Generalist*) and a different shape for each type of behaviour (*Dominant* and *Subordinate*).
+5.  **environmental_var**: Variables refering to the enviroment, that enable us to distinguish between the two different ecosites. They are *Microrelief*, *Herb Coverage*, *Litter Coverage*, *Soil Depth*, *Vegetation Height*, *Ecosite*, *Plant Species Richness* and *Ant Species Richness*.
+
+### Objectives and main hypotheses
+
+#### Plant Traits
+
+Which principal components explain the majority of the total variance across the five plant traits analyzed?
+
+Does a trade-off exist between two difference variables?
+
+Do plant species separate into different functional groups according to its traits?
+
+#### Ant traits
+
+Are morphological features (WL, HL, RLL) related with behavioral ones (Diet, Behaviour)?
+
+Do ant species separate into different groups according to their size and / or lifestyle?
+
+#### Environmental Variations
+
+How do plant species richness and ant species richness correlate with abiotic conditions along different ecosites?
+
+Are some groups of plant species favoured in a specific ecosite? What about ants?
+
+### Analyses
+
+We are going to perform a Principal Components analysis (PCA).
