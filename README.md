@@ -7,6 +7,8 @@ Group:
 - Mabelle El-Mekdad: mabellemekdad@gmail.com
 - Eleni Minousi: el_minousi@gmail.com
 
+**GitHub usernames are missing**. You need to send me your github usernames in order to give you access to your repository. 
+
 Your script render without errors. But the output is a pdf, which is not bad, but neither ideal. To work it is better to use html documents and when you want to present the document you can render it to pdf, word, ebook or whatever. 
 
 The selected article and data are correct. There are few plots for statistics, but with a lot of variables.  
