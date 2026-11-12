@@ -4,7 +4,7 @@ Group:
 
 - Celia Mata González: celiazastei@protonmail.com
 - Success Iziduh: iziduhsuccess@gmail.com
-- Mabelle El-Mekdad: mabellemekdad@gmail.com
+- Mabelle El-Mekdad: mabellemekdad@gmail.com GitHub username: mabellemekdad
 - Eleni Minousi: el_minousi@gmail.com
 
 **GitHub usernames are missing**. You need to send me your github usernames in order to give you access to your repository. 
