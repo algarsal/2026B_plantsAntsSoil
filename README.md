@@ -18,6 +18,8 @@ I want you to try different multivariate analysis for plants and ants communitie
 - Principal components
 - NMDS
 - Discriminant, with soil type as discriminant variable. 
+- We can also make a Correlation Analysis between Plants and Ants, to see if there is some correlation between one
+plant trait and one ant trait.
 
 Also you should try to correlate all plant and ant species and their traits. The variables that look correlated, try to deepen a bit more trying linear or generalized models. 
 
