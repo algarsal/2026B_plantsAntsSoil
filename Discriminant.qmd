@@ -1,5 +1,5 @@
 ---
-title: "Discrimant Analysis"
+title: "Celia Discrimant"
 author: "Celia"
 format: html
 editor: visual
