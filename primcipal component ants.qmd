@@ -1,0 +1,26 @@
+---
+title: "Principal component analysis of ant traits"
+author: "Mabelle"
+format: html
+editor: visual
+---
+
+## Research questions
+
+- Are the ants’ body measurements related to their diet and behaviour?
+- Do ant species with similar body measurements form distinct groups?
+
+## Import the ant trait data
+
+Each row represents one ant species. The first column gives the species name, the next three give its body measurements (Weber’s length, head length and relative leg length), and the last two describe its diet and behaviour. We first read the data into R and check that all 23 species and six columns are present.
+
+```{r}
+# Read the ant traits sheet. Skip the title row so R uses the column names.
+ants <- readxl::read_excel("raw_data.xlsx", sheet = "ant_traits", skip = 1)
+
+# Check the number of species (rows) and variables (columns).
+dim(ants)
+
+# Display all 23 species and their traits.
+print(ants, n = 23)
+```
