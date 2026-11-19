@@ -1,15 +1,33 @@
 ---
-title: "Principal Components Celia Plants"
+title: "Principal Components Analysis (PCA) for Plants"
 author: "Celia"
 format: html
 editor: visual
 ---
 
-## Quarto
+### Principal Component Analysis
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+In this multivariate analysis, we have several individuals, each one with several variables that describe them. In a data frame, each individual belongs to a row, and each variable (also known as dimension) belongs to a column.
 
-## Running Code
+A Principal Component (PC) is a variable that is created by linear combination of different original variables (such as LA, SLA, SM...). Principal Components are listed by order of importance, depending on their number:
+
+PCI \> PCII \> PCIII \> PCIV...
+
+It is important to notice that linear combination for PCI is never correlated to linear combination for PCII, since both PCI and PCII are perpendicular to one another.
+
+#### Plant Species (*plant_species* spreadsheet)
+
+- Columns: 132 dimensions (plant species)
+
+- Rows: 21 individuals (plots, in two different ecosites: A and B)
+
+#### Plant Traits (*plant_traits* spreadsheet)
+
+- Columns: 5 dimensions (plant traits: LA, LMDC, SLA, H, SM)
+
+- Rows: 50 individuals (plant species). Please, notice that, although 132 species where surveyed, only traits for the most important ones (50) were measured.
+
+### PCA for Plant Species
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
@@ -19,9 +37,6 @@ When you click the **Render** button a document will be generated that includes 
 
 You can add options to executable code like this
 
-```{r}
-#| echo: false
-2 * 2
-```
-
 The `echo: false` option disables the printing of code (only output is displayed).
+
+### PCA for Plant Traits 
